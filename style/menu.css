@@ -7,10 +7,12 @@ body{
 
 #checkMenu{
     margin: 40px;
+    position: fixed;
 }
 
 #imgMenu{
-    height: 40px;   
+    height: 40px;
+    position: fixed;   
 }
 
 label#labelCheckMenu{
@@ -34,7 +36,7 @@ nav{
     width: 250px; 
     left:-250px;
     height: 100%;
-    position: absolute;
+    position: fixed;
     transition: all .5s;
     float: left; 
     z-index: 1;
