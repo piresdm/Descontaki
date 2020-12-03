@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="./style/main.css" rel="stylesheet">
+    <link href="./style/menu.css" rel="stylesheet">
+    <link href="./style/notaFiscal.css" rel="stylesheet">
+    <link rel="icon" href="img/Icon.png" type="image/x-icon" />
+
+    <title>Leitor NF</title>
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="checkMenu">
+        <label id="labelCheckMenu" for="checkMenu">
+            <img id="imgMenu" src="img/menu.png" alt="menu">
+        </label>
+
+        <nav>
+            <ul>
+                <li><a class="itensMenu" href="home.html">&nbsp;Início</a></li>
+                <li>
+                    <a class="itensMenu" href="notaFiscal.html">&nbsp;Incluir Nota Fiscal</a>
+                </li>
+                <li><a class="itensMenu" href="dadosPessoais.html">&nbsp;Dados Pessoais</a></li>
+                <li><a class="itensMenu" href="meusCupons.html">&nbsp;Meus Cupons</a></li>
+                <li><a class="itensMenu" href="minhasEconomias.html">&nbsp;Minhas Economias</a></li>
+                <li><a class="itensMenu" href="login.html">&nbsp;Sair</a></li>
+            </ul>
+        </nav>
+
+        <div id="divStorie">
+            <button id="btnStorie" onclick="abrirStorie()">
+                <img id="imgStorie" src="./img/imgStorie.png" alt="Stories">
+            </button>
+        </div>
+
+    </header>
+
+    <section id="centro">
+        <h1>Leitor de Nota Fiscal 
+            <!-- <div id="divDuvida"><a id="duvida">&#63;</a></div> -->
+        </h1> 
+        <img id="leitorCode" src="./img/imgCode.png" alt="Leitor QrCode">
+        <div id="divBtnLink">
+            <a class="btnOrangeL" href="#">Escanear QR Code</a> <br>
+        </div>
+    </section>
+    <div id='ajuste'></div>
+    <footer></footer>
+    <script src="./JS/storie.js"></script>
+
+</body>
+</html>
