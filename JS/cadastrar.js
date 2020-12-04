@@ -12,7 +12,7 @@ cadastrar.addEventListener('click', () => {
     };
 
     
-    fetch("http://localhost:8080/usuarios",
+    fetch("https://apirest-elcoma.herokuapp.com/usuarios",
         {
             method: 'post',
             mode: 'cors',

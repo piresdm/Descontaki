@@ -23,7 +23,7 @@ logar.addEventListener('click', () => {
 
 
     //fetch pegando os valores do banco
-    fetch(`http://localhost:8080/usuarios/cpf/${cpf}`,
+    fetch(`https://apirest-elcoma.herokuapp.com/usuarios/cpf/${cpf}`,
         {
             method: 'GET',
             mode: 'cors',
