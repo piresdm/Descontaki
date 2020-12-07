@@ -12,7 +12,6 @@ logar.addEventListener('click', () => {
     const validarConta = (data) =>  {
         for (const atributos in data){
             if (data["cpf"] == cpf && data["senha"] == senha){
-                localStorage.setItem('id_usuario', data['id']);
                 window.location.href = "home.html"
                 break
             }else(
