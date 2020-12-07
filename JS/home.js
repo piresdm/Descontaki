@@ -10,7 +10,7 @@ function carregarPersonalizacoes(){
 }
 
 function imprimirNome(){
-    if(nome != ''){  
+    if(nome != '' && nome != null){  
         h1.innerHTML = `Seja Bem-Vindo(a), <span>${nome}</span> !`
     }   
 }
@@ -26,7 +26,7 @@ function salvarNome(){
     let divRespNome = document.getElementById('respostaNome')  
     let divRespNasc = document.getElementById('respostaNascimento')  
 
-    if(nome.value !=''){
+    if(nome.value !='' ){
         localStorage.setItem('nome', nome.value)
         divRespNome.style.display = 'none'
         divRespNasc.style.display = 'block'

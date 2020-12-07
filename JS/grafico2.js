@@ -38,7 +38,9 @@ let mesAtual = dataAtual.getMonth()+1;
 
 select.selectedIndex = mesAtual-1;
 
-findCupomByMothAndIdUser(2,''+mesAtual);
+let id_usuario = localStorage.getItem('id_usuario');
+
+findCupomByMothAndIdUser(id_usuario,''+mesAtual);
 
 select.addEventListener('change', function (){
     let mesSelect = select.options[select.selectedIndex].value;
