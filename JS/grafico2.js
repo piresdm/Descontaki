@@ -44,7 +44,7 @@ findCupomByMothAndIdUser(id_usuario,''+mesAtual);
 
 select.addEventListener('change', function (){
     let mesSelect = select.options[select.selectedIndex].value;
-    findCupomByMothAndIdUser(2,''+mesSelect);
+    findCupomByMothAndIdUser(id_usuario,''+mesSelect);
 })
 
 async function  findCupomByMothAndIdUser(id,mes){
