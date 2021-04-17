@@ -14,26 +14,7 @@ h1:after{
     height: 0.2rem;
     width: 6rem;
     border-radius: 5px;
-    margin: 1.6rem auto 2.5rem;
-}
-/* 
-#divDuvida{
-    display: inline-block;
-    height:
-} */
-
-
-a#duvida{
-    border: 1px solid var(--color-orange);
-    border-radius: 50%;
-    padding: 0.1rem 0.3rem;
-    color: var(--color-orange);
-    font-size: 40%;
-    font-weight: bold;
-}
-
-img#leitorCode{
-    width: 10rem;
+    margin: 1.6rem auto -6rem;
 }
 
 #divBtnLink:before{
@@ -46,25 +27,6 @@ img#leitorCode{
     margin: 2.5rem auto 3rem;
 }
 
-.btnOrangeL{
-    font-size: 120%;
-    color: white;
-    background-color: var(--color-orange);
-    padding: 1rem 2.5rem;
-    border-radius: 5px;
-    border: none;
-    text-decoration: none;  
-}
-
-.btnOrangeL:hover{
-    background-color: var(--color-orange-lighter);
-    text-decoration: underline;
-}
-
-.separacao{
-    margin: 3rem 0;
-}
-
 a.links{
     color: var(--color-grey-darker);
     text-decoration: none;
@@ -73,10 +35,6 @@ a.links{
 
 a.links:hover{
     text-decoration: underline;
-}
-
-#ajuste{
-    height: 85px;
 }
 
 @media screen and (max-width:1000px) {
